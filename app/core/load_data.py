@@ -8,7 +8,7 @@ def load_data(filepath):
     return data
 
 if __name__ == "__main__":
-    path = Path(__file__).resolve().parent.parent.parent / "data" / "production_log.csv"
+    path = Path(__file__).resolve().parent.parent.parent / "data" / "example_production_log.csv"
     records = load_data(path)
 
     print(f"Loaded {len(records)} rows.")

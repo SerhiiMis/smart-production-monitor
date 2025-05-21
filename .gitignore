@@ -5,3 +5,5 @@ __pycache__/
 .idea/
 .vscode/
 data/*.csv
+
+!data/example_production_log.csv
