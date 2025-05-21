@@ -10,7 +10,6 @@ def load_data(filepath):
 if __name__ == "__main__":
     path = Path(__file__).resolve().parent.parent.parent / "data" / "production_log.csv"
     records = load_data(path)
-    records = load_data(path)
+
     print(f"Loaded {len(records)} rows.")
     print(f"First row:\n{records[0]}")
-

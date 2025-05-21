@@ -3,3 +3,5 @@ timestamp,machine_id,status,units_produced,scrap_count
 2025-05-01 08:01:00,M001,Running,118,3
 2025-05-01 08:02:00,M001,Stopped,0,0
 2025-05-01 08:03:00,M002,Running,130,1
+2025-05-01 08:04:00,M002,Running,125,2
+2025-05-01 08:05:00,M001,Running,119,4
